@@ -11,7 +11,7 @@ data = pd.read_csv("sd QQ list.csv")
 
 datax = pd.get_dummies(data.Answers)
 datax['Questions'] = data.Questions
-datax.head()
+
 
 
 # In[2]:
